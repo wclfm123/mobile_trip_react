@@ -1,0 +1,41 @@
+.message_list{
+    background:#fff;
+    ul{
+        overflow: hidden;
+        li{
+            overflow: hidden;
+            padding:.5rem .75rem;
+            margin-top:.5rem;
+            border-bottom:1px solid #e7e7e7;
+            &:last-child{
+                border-bottom:0;
+            }
+            .fl{
+                position: relative;
+                img{
+                    width:2.5rem;
+                    height:2.5rem;
+                    border-radius: 50%;
+                }
+            }
+            .message_list{
+                margin-left:3rem;
+                line-height:1rem;
+                .mess_info{
+                    margin-top:5px;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    display:-webkit-box;
+                    -webkit-line-clamp:1;
+                    -webkit-box-orient:vertical;
+                    color:#b1b1b1;
+                    line-height:1rem;
+                    font-size:.7rem;
+                }
+                .fr{
+                    color:#b1b1b1;
+                }
+            }
+        }
+    }
+}
